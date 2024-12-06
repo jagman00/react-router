@@ -5,6 +5,7 @@ import Red from './Components/Red'
 import Blue from './Components/Blue'
 import Nav from './Components/Nav'
 import Home from './Components/Home'
+import './index.css'
 
 function App() {
 
@@ -15,8 +16,8 @@ function App() {
     <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/blue" element={<Red />} />
-        <Route path="/red" element={<Blue />} />
+        <Route path="/blue" element={<Blue />} />
+        <Route path="/red" element={<Red />} />
       </Routes>
     </div>
   </>
