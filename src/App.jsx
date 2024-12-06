@@ -13,6 +13,7 @@ function App() {
   return (
   <>
     <div id="main-section">
+      <h1>Color Selector</h1>
     <Nav />
       <Routes>
         <Route path="/" element={<Home />} />

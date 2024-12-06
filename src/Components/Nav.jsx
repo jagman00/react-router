@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom";
 
 const Nav = () => {
-  // Link
   return (
-    <nav style={{ display: "flex", gap: "8px" }}>
-        <Link to="/">Home</Link>
-        <Link to="/red">Red</Link>
-        <Link to="/blue">Blue</Link>
+    <nav id="navbar">
+      <Link style={{ padding: "0 8px" }} to="/">Home</Link>
+      <Link style={{ padding: "0 8px" }} to="/Red">Red</Link>
+      <Link style={{ padding: "0 8px" }} to="/Blue">Blue</Link>
     </nav>
   );
 };
